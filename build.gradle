@@ -3,6 +3,7 @@ apply plugin: 'idea'
 apply plugin: 'eclipse'
 apply plugin:'application'
 apply plugin: 'jetty'
+apply plugin: 'war'
 
 mainClassName = "Application"
 applicationName = "skeleton"
