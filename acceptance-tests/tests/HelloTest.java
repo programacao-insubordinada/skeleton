@@ -21,7 +21,7 @@ public class HelloTest {
     }
 
     @Test
-    public void testSearch() {
+    public void testTitle() {
         page.access();
         Assert.assertEquals("Welcome!", page.getTitle());
     }
