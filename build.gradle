@@ -1,6 +1,10 @@
 apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'eclipse'
+apply plugin:'application'
+
+mainClassName = "Routes"
+applicationName = "skeleton"
 
 repositories {
   mavenCentral()
@@ -10,5 +14,7 @@ dependencies {
   compile 'com.sparkjava:spark-core:1.1.1'
   testCompile 'junit:junit:4.11'
 }
+
+task stage(dependsOn: ['clean', 'installApp'])
 
 
