@@ -16,6 +16,9 @@ repositories {
 dependencies {
   compile 'com.sparkjava:spark-template-freemarker:1.0'
   compile 'com.sparkjava:spark-core:1.1.1'
+  compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.+'
+  compile "com.github.detro.ghostdriver:phantomjsdriver:1.1.0"
+  compile 'org.apache.commons:commons-lang3:3.1'
   testCompile 'junit:junit:4.11'
 }
 
