@@ -2,8 +2,9 @@ apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'eclipse'
 apply plugin:'application'
+apply plugin: 'jetty'
 
-mainClassName = "Routes"
+mainClassName = "Application"
 applicationName = "skeleton"
 sourceCompatibility = 1.7
 
