@@ -11,6 +11,7 @@ repositories {
 }
 
 dependencies {
+  compile 'com.sparkjava:spark-template-freemarker:1.0'
   compile 'com.sparkjava:spark-core:1.1.1'
   testCompile 'junit:junit:4.11'
 }
