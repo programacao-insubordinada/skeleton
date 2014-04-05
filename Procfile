@@ -1,1 +1,1 @@
-web: ./build/install/skeleton/bin/skeleton
+web:    java $JAVA_OPTS -cp target/classes:target/dependency/* HelloWorld
