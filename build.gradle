@@ -5,6 +5,7 @@ apply plugin:'application'
 
 mainClassName = "Routes"
 applicationName = "skeleton"
+sourceCompatibility = 1.7
 
 repositories {
   mavenCentral()
