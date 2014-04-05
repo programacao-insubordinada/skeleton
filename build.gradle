@@ -1,0 +1,14 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'eclipse'
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile 'com.sparkjava:spark-core:1.1.1'
+  testCompile 'junit:junit:4.11'
+}
+
+
