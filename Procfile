@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar ./jetty-runner.jar build/libs/*.war
+web: java $JAVA_OPTS -jar build/libs/jetty-runner.jar build/libs/*.war
