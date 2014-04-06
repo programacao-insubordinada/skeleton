@@ -12,6 +12,7 @@ import java.util.Map;
 import static spark.Spark.get;
 
 public class Application implements SparkApplication {
+
     @Override
     public void init() {
         get(new FreeMarkerRoute("/hello") {

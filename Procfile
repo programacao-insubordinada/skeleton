@@ -1,1 +1,1 @@
-web:    java $JAVA_OPTS -cp target/classes:target/dependency/* br.com.insubordinada.Application
+web: java $JAVA_OPTS -jar ./jetty-runner.jar build/libs/*.war
