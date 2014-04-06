@@ -19,7 +19,7 @@ dependencies {
   compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.+'
   compile "com.github.detro.ghostdriver:phantomjsdriver:1.1.0"
   compile 'org.apache.commons:commons-lang3:3.1'
-  compile 'org.mortbay.jetty:jetty-runner:8.1.1.v20120215'
+  compile 'org.mortbay.jetty:jetty-runner:8.1.14.v20131031'
   testCompile 'junit:junit:4.11'
 }
 
